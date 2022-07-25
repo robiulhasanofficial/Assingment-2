@@ -1,0 +1,143 @@
+/* Font */
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500&family=Roboto&display=swap');
+
+/* Banner */
+body {
+    background-color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.top-banner {
+    width: 1221px;
+    height: 646px;
+    background-color: black;
+    border-radius: 30px;
+    display: flex;
+
+}
+
+.top-banner-info {
+    width: 531px;
+    height: 420px;
+    padding: 50px 0px 100px 106px;
+    margin-right: 26px;
+    margin-bottom: 100px;
+}
+
+.top-banner-info h1,
+p {
+    color: rgb(252, 254, 254);
+}
+
+h1 {
+    font-size: 70px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.watch-live {
+    text-decoration: none;
+    background-color: #DD0000;
+    padding: 7px 15px;
+    border-radius: 4px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.banner-img img {
+    width: 581px;
+    height: 613px;
+}
+
+/* main section style */
+.container {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.for-flex {
+    display: flex;
+}
+
+/* Navigation Button Style */
+.nav-buttons {
+
+    padding-top: 30px;
+    padding-left: 28px;
+    background-color: #161616;
+    width: 270px;
+    height: 270px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.nav-buttons-2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+    width: 252px;
+    height: 252px;
+}
+
+.nav-button {
+    text-decoration: none;
+    background-color: white;
+    width: 252px;
+    height: 64px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #161616;
+    ;
+}
+
+.nav-button:hover {
+    background-color: red;
+
+}
+
+/* Blogs Style */
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+
+}
+
+.blog {
+    width: 312px;
+    height: 362px;
+    border: 1px solid rgb(97, 96, 96);
+    border-radius: 10px;
+}
+
+.blog-button {
+    margin-left: 3px;
+    width: 100px;
+    height: 32px;
+
+}
+
+.blog-dettail {
+    margin-left: 20px;
+}
+
+.blog-info {
+    display: flex;
+}
+
+.fa-clock {
+    margin-right: 13px;
+    margin-left: 3px;
+}
