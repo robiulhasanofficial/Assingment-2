@@ -106,8 +106,8 @@ p {
 
 }
 
-/* Blogs Style */
-.blogs {
+/* Match Style */
+.match-sec {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 5px;
@@ -115,32 +115,34 @@ p {
 
 }
 
-.blog {
+.match {
     width: 312px;
-    height: 362px;
+    height: 242px;
     border: 1px solid rgb(97, 96, 96);
     border-radius: 10px;
-    box-shadow: antiquewhite;
 }
 
-.blog-button {
-    margin-left: 3px;
-    width: 100px;
-    height: 32px;
-
-}
-
-.blog-dettail {
-    margin-left: 20px;
-}
-
-.blog-info {
+.flag-img {
+    margin-top: 25px;
     display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
-.fa-clock {
-    margin-right: 13px;
-    margin-left: 3px;
+.team-flag img {
+    margin: 0 10px;
+}
+
+.match-time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.match-time p {
+    color: rgb(140, 143, 145);
 }
 
 /* Footer Style */
