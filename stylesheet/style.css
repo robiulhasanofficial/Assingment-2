@@ -71,8 +71,8 @@ p {
 /* Navigation Button Style */
 .nav-buttons {
 
-    padding-top: 30px;
-    padding-left: 28px;
+    display: flex;
+    flex-direction: column;
     background-color: #161616;
     width: 270px;
     height: 270px;
@@ -169,4 +169,140 @@ footer {
 .info li,
 .social li {
     margin: 0 10px;
+}
+
+@media screen and (max-width:622px) {
+
+    /* banner */
+    header {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .top-banner {
+        width: 334px;
+        height: 472px;
+        background-color: black;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .top-banner-info {
+        width: 258px;
+        height: 178px;
+        margin-bottom: 10px;
+    }
+
+    .top-banner-info h1,
+    p {
+        color: rgb(252, 254, 254);
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .watch-live {
+        text-decoration: none;
+        background-color: #DD0000;
+        padding: 7px 15px;
+        border-radius: 4px;
+        font-size: 20px;
+        color: whitesmoke;
+    }
+
+    .banner-img img {
+        width: 160px;
+        height: 130px;
+    }
+
+    /* Navigation */
+    .for-flex {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+@media screen and (min-width:622px) and (max-width:1024px) {
+    header {
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+
+    .top-banner {
+        width: 675px;
+        height: 398px;
+        background-color: black;
+        border-radius: 30px;
+        display: flex;
+
+    }
+
+    .top-banner-info {
+        width: 250px;
+        height: 276px;
+        padding: 30px 0px 60px 66px;
+        margin-right: 12px;
+        margin-bottom: 60px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .watch-live {
+        text-decoration: none;
+        background-color: #DD0000;
+        padding: 7px 15px;
+        border-radius: 4px;
+        font-size: 20px;
+        color: whitesmoke;
+    }
+
+    .banner-img img {
+        width: 323px;
+        height: 340px;
+    }
+
+    .for-flex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    /* Navigation */
+    .nav-buttons {
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* Blogs Style */
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+    }
 }
